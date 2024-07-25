@@ -2,7 +2,7 @@ import React from "react";
 
 /* Vamos trazer os estilos do mobile*/
 import { styles } from "./styles";
-import { Text, View, Image} from "react-native";
+import { Text, View, Image, TextInput, TouchableOpacity} from "react-native";
 
 import rocket from '../../assets/rocket.png';
 
@@ -31,7 +31,19 @@ export default function Home(){
 
 
       </View>
-      <View>
+
+      {/* View parte do input e o botão */}
+      <View style={styles.inputContainer}>
+        <TextInput
+          style={styles.input}
+          placeholder="Adicone uma nova tarefa"
+          placeholderTextColor="#808080"
+        />
+        <TouchableOpacity style={styles.addButton}>
+          <Text style={styles.addButtonText}>
+            +
+          </Text>
+        </TouchableOpacity>
 
       </View>
     </View>

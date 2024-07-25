@@ -27,4 +27,30 @@ export const styles = StyleSheet.create({
   imageRocket:{
     marginRight: 12
   },
+  inputContainer:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  input:{
+    flex: 1,
+    height: 50,
+    backgroundColor: '#262626',
+    borderRadius: 5,
+    paddingHorizontal: 15,
+    color: '#FFF',
+    marginRight: 10,
+  },
+  addButton:{
+    width: 50,
+    height: 50,
+    backgroundColor: '#1E6F9F',
+    borderRadius: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  addButtonText:{
+    color: '#FFF',
+    fontSize: 24,
+  }
 })
