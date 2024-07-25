@@ -52,5 +52,24 @@ export const styles = StyleSheet.create({
   addButtonText:{
     color: '#FFF',
     fontSize: 24,
-  }
+  },
+  statusContainer:{
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 20,
+  },
+  status:{
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  statusText:{
+    color: '#4EA8DE',
+    fontSize: 16,
+    marginRight: 5,
+  },
+  statusCount:{
+    color: '#FFF',
+    fontSize: 16,
+  },
+  
 })

@@ -25,11 +25,6 @@ export default function Home(){
         <Text style={styles.listDO}>
           Do
         </Text>
-
-
-
-
-
       </View>
 
       {/* View parte do input e o botão */}
@@ -45,6 +40,26 @@ export default function Home(){
           </Text>
         </TouchableOpacity>
 
+      </View>
+
+      {/* View parte do status */}
+      <View style={styles.statusContainer}>
+        <View style={styles.status}>
+          <Text style={styles.statusText}>
+            Criadas
+          </Text>
+          <Text style={styles.statusCount}>
+            0
+          </Text>
+        </View>
+        <View style={styles.status}>
+          <Text style={styles.statusText}>
+            Concluídas
+          </Text>
+          <Text style={styles.statusCount}>
+            0
+          </Text>
+        </View>
       </View>
     </View>
   );
