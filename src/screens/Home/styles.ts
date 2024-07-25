@@ -2,13 +2,17 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
 
-  container:{
-    flex: 0.2,
-    backgroundColor: '#0D0D0D',
-    padding: 24,
-    flexDirection: 'row', // Adicione esta linha
-    alignItems: 'center', // Alinhar itens no eixo transversal
-    justifyContent: 'center' // Centralizar itens no eixo principal
+  oneContainer:{
+    flex: 1,
+    backgroundColor: '#1A1A1A',
+    paddingHorizontal: 20,
+    paddingTop: 40,
+  },
+  oneView:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
   },
   listTO:{
     fontSize: 34,
@@ -19,5 +23,8 @@ export const styles = StyleSheet.create({
     fontSize: 34,
     color: '#5E60CE',
     fontWeight: 'bold',
+  },
+  imageRocket:{
+    marginRight: 12
   },
 })
