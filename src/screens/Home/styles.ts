@@ -6,13 +6,13 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#1A1A1A',
     paddingHorizontal: 20,
-    paddingTop: 40,
+    paddingTop: 50,
   },
   oneView:{
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 20,
+    marginBottom: 80,
   },
   listTO:{
     fontSize: 34,
@@ -71,5 +71,28 @@ export const styles = StyleSheet.create({
     color: '#FFF',
     fontSize: 16,
   },
-  
-})
+  emptyContainer:{
+    alignItems: 'center',
+    justifyContent: 'center',
+    flex: 1,
+  },
+  emptyImage: {
+    width: 60,
+    height: 60,
+    marginBottom: 20,
+  },
+  emptyTitle: {
+    color: '#808080',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  emptySubtitle: {
+    color: '#808080',
+    fontSize: 14,
+  },
+  content:{
+    flex: 1,
+    paddingHorizontal: 20,
+    paddingTop: 120, 
+  }
+});
